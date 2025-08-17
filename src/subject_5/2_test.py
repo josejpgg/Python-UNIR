@@ -36,7 +36,7 @@ Libro: {0}
 Autor: {1}
 Páginas: {2}
 ¿Es largo?: {3}
-Resumen: {3}
+Resumen: {4}
 """
 
 print(mensaje.format(
@@ -44,7 +44,7 @@ print(mensaje.format(
 	libro1.autor,
 	libro1.paginas,
 	"SI" if libro1.es_largo() else "NO",
-	libro1.resumir()
+	libro1.resumir(120)
 ))
 
 print(mensaje.format(
