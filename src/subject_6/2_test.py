@@ -14,5 +14,3 @@ def procesar_numeros(lista: list):
 	return list(numeros_duplicados)
 
 print(procesar_numeros(numeros))
-
-
